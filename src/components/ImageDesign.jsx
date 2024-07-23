@@ -5,7 +5,7 @@ const ImageDesign = () => {
     <main className="bg-[#0F062C] items-center text-center justify-center lg:flex text-white lg:p-4 md:px-5 lg:py-20 font-serif ">
       <div className="lg:flex lg:w-1/2">
         <img
-          className="w-full md:p-0 sm:px-3 md:px-20 lg:px-0 md:w-auto lg:w-fit items-center justify-center text-center"
+          className="w-full md:p-0 px-5 md:px-20 lg:px-0 md:w-auto lg:w-fit items-center justify-center text-center"
           src="Section2.png"
           alt=""
         />

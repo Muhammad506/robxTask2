@@ -19,7 +19,7 @@ const EnhanceVoice = () => {
       </div>
       <div className="lg:w-1/2 order-1 lg:order-2">
         <img
-          className="w-full sm:px-3 lg:px-0 md:px-20 md:w-auto lg:w-fit"
+          className="w-full px-5 lg:px-0 md:px-20 md:w-auto lg:w-fit"
           src="Section3.png"
           alt="Voice Experience"
         />
