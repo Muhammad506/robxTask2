@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section10 = () => {
+const SocialSphere = () => {
   return (
     <main className="bg-[#0F062C] ">
       <div className="px-16 items-center justify-center ">
@@ -33,4 +33,4 @@ const Section10 = () => {
   );
 };
 
-export default Section10;
+export default SocialSphere;

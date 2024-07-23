@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa6";
 
-const Section11 = () => {
+const AskedQuestions = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleDropdown = (index) => {
@@ -87,4 +87,4 @@ const Section11 = () => {
   );
 };
 
-export default Section11;
+export default AskedQuestions;

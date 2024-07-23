@@ -13,7 +13,7 @@ const Bottom = () => {
 
   return (
     <main>
-      <div className="fixed bottom-0 w-full flex justify-between items-center bg-gray-900 text-white p-4 z-20">
+      <div className="hidden md:flex fixed bottom-0 w-full justify-between items-center bg-gray-900 text-white p-4 z-20">
         <p>This website uses cookies to enhance user experience.</p>
         <div className="flex space-x-4">
           <button

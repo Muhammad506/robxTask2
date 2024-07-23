@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section4 = () => {
+const ImageAnd_NFTS = () => {
   return (
     <main className="bg-[#0F062C] justify-center pt-14 lg:py-24  pb-28 p-5">
       <h2 class="lg:text-6xl text-5xl font-normal relative lg:p-10   md:p-10 p-4 ">
@@ -21,4 +21,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default ImageAnd_NFTS;

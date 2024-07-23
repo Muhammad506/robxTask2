@@ -5,7 +5,7 @@ import { FaBarcode } from "react-icons/fa6";
 import { FaSlack } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
-const Section9 = () => {
+const FuturePlans = () => {
   return (
     <main className="bg-[#0F062C] pb-14">
       <div className="xl:px-16 md:px-6 px-4 w-full container mx-auto">
@@ -261,4 +261,4 @@ const Section9 = () => {
   );
 };
 
-export default Section9;
+export default FuturePlans;

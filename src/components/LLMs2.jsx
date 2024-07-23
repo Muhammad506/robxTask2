@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section5 = () => {
+const LLMs2 = () => {
   return (
     <div className="bg-[#0F062C] relative text-white py-2 text-center justify-center items-center text-5xl font-bold font-serif">
       
@@ -92,4 +92,4 @@ const Section5 = () => {
   );
 };
 
-export default Section5;
+export default LLMs2;

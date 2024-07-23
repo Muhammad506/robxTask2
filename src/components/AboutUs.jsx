@@ -1,8 +1,8 @@
 import React from "react";
 
-const Section1 = () => {
+const AboutUs = () => {
   return (
-    <main className="bg-[#0F062C] items-center justify-center text-center px-3 lg:px-52 ">
+    <main className="bg-[#0F062C] items-center justify-center text-center px-3 lg:px-32 leading-relaxed ">
       <div className=" flex items-center justify-center text-center">
         <h2 class="lg:text-6xl text-5xl  font-normal relative lg:p-10 md:p-6 p-2">
           <span class="border-text text-white opacity-50  absolute md:top-3 lg:top-4 top-0 lg:left-10">
@@ -23,4 +23,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default AboutUs;

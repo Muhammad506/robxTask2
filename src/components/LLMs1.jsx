@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section6 = () => {
+const LLMs1 = () => {
   return (
     <main className="relative bg-[#0F062C] justify-center pt-14 lg:py-20  pb-28 p-4 -z-50">
       <h2 class="lg:text-6xl text-5xl font-normal relative lg:p-10   md:p-10 p-4 ">
@@ -22,4 +22,4 @@ const Section6 = () => {
   );
 };
 
-export default Section6;
+export default LLMs1;

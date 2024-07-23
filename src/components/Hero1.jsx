@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Typewriter } from 'react-simple-typewriter'
 
 const Hero1 = () => {
   return (
@@ -12,7 +13,7 @@ const Hero1 = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className=" pt-24 min-h-screen flex flex-col items-center justify-center text-white font-sans">
+        <div className=" pt-16 min-h-screen flex flex-col items-center justify-center text-white font-sans">
           <div className="text-center px-5 md:px-20 md:mt-24 mt-10">
             <div className="inline-block items-center justify-center border border-white rounded-2xl p-3 md:p-4 md:pr-10 md:pl-10 font-bold bg-[#1E0A45]">
               AI Expert in Image, Voice, and Content Creation with{" "}
@@ -20,17 +21,20 @@ const Hero1 = () => {
             </div>
           </div>
 
-          <div className="text-center text-white mt-8 md:mt-16 md:px-20">
+          <div className="text-center text-white mt-8 md:mt-11 md:px-20">
             <h1 className="text-2xl md:text-7xl font-bold ">
               Platform for Crafting Content
             </h1>
             <h2 className="mt-4 md:mt-8 font-bold inline-flex items-center text-center justify-center w-full md:w-2/5 md:rounded-xl text-4xl md:text-4xl md:text-nowrap lg:text-6xl md:p-6 p-3 md:px-20 bg-[#4D0663]">
-              AI Speech
+            <div className='App h-[60px]'>
+      <Typewriter words={[ "AI Speech" ,"AI Content" , "AI Visuals"]} />
+    </div>
+              {/* AI Speech */}
             </h2>
-            <h3 className="mt-4 md:mt-8 p-4 text-2xl md:text-7xl font-bold">
+            <h3 className="mt-0 md:mt-8 p-2 text-2xl md:text-6xl font-bold">
               with IntelliWriter.
             </h3>
-            <p className="mt-4 md:mt-8 p-4 text-lg md:text-2xl">
+            <p className="mt-0 md:mt-8 p-4 text-lg md:text-xl">
               AI Content Generator is here to help you create high-quality
               content in just a few seconds.
             </p>

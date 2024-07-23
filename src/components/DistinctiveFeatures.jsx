@@ -1,8 +1,8 @@
 import React from "react";
 
-const Section8 = () => {
+const DistinctiveFeatures = () => {
   return (
-    <main className=" bg-[#0F062C] flex flex-col items-center justify-center pt-14 lg:py-20 pb-28 p-4">
+    <main className="bg-[#0F062C] flex flex-col items-center justify-center pt-14 lg:py-20 pb-28 p-4">
       <h2 className="self-start lg:text-6xl text-5xl font-normal relative lg:p-10 md:p-10 p-4 text-center">
         <span className="border-text text-white opacity-50 absolute md:top-3 lg:top-4 top-0 md:left-24 left-1/2 transform -translate-x-1/2 md:translate-x-0">
           DISTINCTIVE
@@ -19,10 +19,10 @@ const Section8 = () => {
       </p>
 
       {/* Card row 1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 p-3 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 p-3">
         {/* card1 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -46,7 +46,7 @@ const Section8 = () => {
 
         {/* card2 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -70,7 +70,7 @@ const Section8 = () => {
 
         {/* card3 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -94,7 +94,7 @@ const Section8 = () => {
 
         {/* card4 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -121,7 +121,7 @@ const Section8 = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 p-3">
         {/* card5 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -134,10 +134,10 @@ const Section8 = () => {
             </div>
             <div className="h-[50%] pt-2 md:pt-3 relative">
               <h2 className="text-[22px] md:text-[20px] xl:text-[22px] font-semibold mb-2">
-              Voice Generator
+              Image Generator
               </h2>
               <p className="text-[16px] md:text-[15px] xl:text-[16px] font-normal text-gray-200">
-              Transform your words into captivating AI speech with...
+              Effortlessly transform words into captivating visuals...
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@ const Section8 = () => {
 
         {/* card6 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -158,10 +158,10 @@ const Section8 = () => {
             </div>
             <div className="h-[50%] pt-2 md:pt-3 relative">
               <h2 className="text-[22px] md:text-[20px] xl:text-[22px] font-semibold mb-2">
-              Digital Marketing
+              Social Ads
               </h2>
               <p className="text-[16px] md:text-[15px] xl:text-[16px] font-normal text-gray-200">
-              Boost your marketing with AI-generated content...
+              Transform social ads with AI. Craft stunning posts...
               </p>
             </div>
           </div>
@@ -169,7 +169,7 @@ const Section8 = () => {
 
         {/* card7 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -181,11 +181,11 @@ const Section8 = () => {
               ></img>
             </div>
             <div className="h-[50%] pt-2 md:pt-3 relative">
-              <h2 className="text-[22px] md:text-[20px] xl:text-[22px] font-semibold mb-2">
-              Content Rewrite
+              <h2 className="text-[22px] md:text-[20px] xl:text-[22px] lg:text-nowrap font-semibold mb-2">
+              Content Generator
               </h2>
               <p className="text-[16px] md:text-[15px] xl:text-[16px] font-normal text-gray-200">
-              Effortlessly revamp your content and rewriting text...
+              Fuel your content effortlessly with our AI. Generate...
               </p>
             </div>
           </div>
@@ -193,7 +193,7 @@ const Section8 = () => {
 
         {/* card8 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -206,10 +206,10 @@ const Section8 = () => {
             </div>
             <div className="h-[50%] pt-2 md:pt-3 relative">
               <h2 className="text-[22px] md:text-[20px] xl:text-[22px] font-semibold mb-2 lg:text-nowrap">
-              Speech Generator
+              Content Generator
               </h2>
               <p className="text-[16px] md:text-[15px] xl:text-[16px] font-normal text-gray-200">
-              Unleash the power of speech with your voice,...
+              Fuel your content effortlessly with our AI. Generate...
               </p>
             </div>
           </div>
@@ -220,7 +220,7 @@ const Section8 = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 p-3">
         {/* card9 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -244,7 +244,7 @@ const Section8 = () => {
 
         {/* card10 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -256,7 +256,7 @@ const Section8 = () => {
               ></img>
             </div>
             <div className="h-[50%] pt-2 md:pt-3 relative">
-              <h2 className="text-[22px] md:text-[20px] xl:text-[22px] font-semibold mb-2 lg:text-nowrap">
+              <h2 className="text-[22px] md:text-[20px] xl:text-[22px] font-semibold mb-2">
               Content Summary
               </h2>
               <p className="text-[16px] md:text-[15px] xl:text-[16px] font-normal text-gray-200">
@@ -268,7 +268,7 @@ const Section8 = () => {
 
         {/* card11 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -276,14 +276,14 @@ const Section8 = () => {
               <img
                 src="card11.png"
                 alt="blank"
-                className="w-[100px] h-auto py-3 "
+                className="w-[100px] h-auto"
               ></img>
             </div>
-            <div className="h-[50%] md:pt-3 relative">
-              <h2 className="text-[22px] md:text-[20px] xl:text-[22px] font-semibold mb-2">
+            <div className="h-[50%] pt-2 md:pt-3 relative">
+              <h2 className="text-[22px] md:text-[20px] xl:text-[22px] lg:text-nowrap font-semibold mb-2">
               Website Content
               </h2>
-              <p className="text-base md:text-[15px] xl:text-[16px] font-normal text-gray-200">
+              <p className="text-[16px] md:text-[15px] xl:text-[16px] font-normal text-gray-200">
               Craft your website effortlessly! Our AI generates compelling...
               </p>
             </div>
@@ -292,7 +292,7 @@ const Section8 = () => {
 
         {/* card12 */}
         <div className="p-3">
-          <div className="flex flex-col items-center rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
+          <div className="flex flex-col items-center w-full h-72 md:w-64 lg:w-60 xl:w-72 rounded-lg py-4 px-6 bg-white/5 relative backdrop-blur-md text-white gap-2 overflow-hidden border border-[#FFFFFF14] text-center hover:scale-105 hover:bg-[#67508471] transition ease-in-out duration-500">
             <div className="absolute -bottom-4 -right-4 bg-[#ac7aeb] w-28 h-28 blur-[80px]"></div>
             <div className="absolute -bottom-4 -right-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
             <div className="absolute top-4 left-4 bg-gray-800 w-16 h-16 blur-[50px]"></div>
@@ -308,7 +308,7 @@ const Section8 = () => {
               Content Grammar
               </h2>
               <p className="text-[16px] md:text-[15px] xl:text-[16px] font-normal text-gray-200">
-               Perfect your content and enhance grammar flawlessly...
+              Perfect your content and enhance grammar flawlessly with...
               </p>
             </div>
           </div>
@@ -318,4 +318,4 @@ const Section8 = () => {
   );
 };
 
-export default Section8;
+export default DistinctiveFeatures;
