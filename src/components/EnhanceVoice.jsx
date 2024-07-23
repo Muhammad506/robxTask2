@@ -2,7 +2,7 @@ import React from "react";
 
 const EnhanceVoice = () => {
   return (
-    <main className="bg-[#0F062C] flex flex-col lg:flex-row items-center text-center lg:text-left justify-center text-white md:p-4 lg:px-5 lg:py-20 font-serif ">
+    <main className="bg-[#0F062C] flex flex-col lg:flex-row items-center text-center lg:text-left justify-center text-white md:p-4 lg:px-5 lg:py-20  ">
       <div className="lg:w-1/2 md:px-5 order-2 lg:order-1">
         <h1 className="text-3xl p-6 py-14 md:p-0 md:text-4xl lg:text-5xl">
           Enhance <span className="text-[#EF59FF]">Voice</span> Experience
